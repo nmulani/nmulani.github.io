@@ -1,0 +1,7 @@
+---
+published: true
+title: Why
+layout: post
+tags: [about]
+---
+I'll be posting notes on what I've recently been building or experimenting with here. Will be much more technical than my personal blog [here](http://nikhilmulani.com/).
