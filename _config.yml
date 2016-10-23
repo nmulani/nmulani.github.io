@@ -1,8 +1,6 @@
 excerpt_separator: ""
-pygments: true
-markdown: kramdown
 url: http://nmulani.github.io
 title: Aventine
 tagline: Recent experiments
-description: My awesome new site
+description: Recent experiments
 paginate: 5
