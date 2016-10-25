@@ -4,7 +4,11 @@ title: Map, Reduce and Filter
 layout: post
 tags: [javascript, functional, rome]
 ---
-Map, reduce and filter are three useful functions to manipulate Javascript arrays. We can use the Filter function to return a filtered array where each element matches specified criteria. The Map function can be used to apply an operation to properties of each element in an array, and return a new array with the transformed values. The Reduce function can be used to 'fold' or combine values of an array using a function of our choosing.
+Map, reduce and filter are three useful functions to manipulate Javascript arrays: 
+
+* The Filter function returns a filtered array where each element matches specified criteria. 
+* The Map function can be used to apply an operation each element in an array, and return a new array with the transformed values. 
+* The Reduce function can be used to 'fold' or combine values of an array using a function of our choosing.
 
 As a mental model for remembering how these functions can work together, my favorite analogy is the Roman census. Let's say that the emperor is planning a census with the goal of getting a headcount of all Roman citizens in the empire. 
 
