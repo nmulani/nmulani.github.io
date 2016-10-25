@@ -8,7 +8,7 @@ Map, reduce and filter are three useful functions to manipulate Javascript array
 
 As a mental model for remembering how these functions can work together, my favorite analogy is the Roman census. Let's say that the emperor is planning a census with the goal of getting a headcount of all Roman citizens in the empire. 
 
-```
+```javascript
 
 // The empire is an array of provinces
 
