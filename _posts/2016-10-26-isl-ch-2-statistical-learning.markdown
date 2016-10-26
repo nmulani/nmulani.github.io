@@ -1,6 +1,6 @@
 ---
 published: true
-title: ISL, Ch. 2: Statistical Learning
+title: ISL Ch. 2 Statistical Learning
 layout: post
 ---
 Some notes on concepts from Chapter 2 of **An Introduction to Statistical Learning**.
