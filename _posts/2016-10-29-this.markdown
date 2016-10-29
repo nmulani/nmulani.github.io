@@ -1,0 +1,22 @@
+---
+published: true
+title: *this*
+layout: post
+---
+The *this* property in Javascript is kind of quirky - whenever a function executes, it is assigned a *this* property, which is a variable which contains the value of the object that invokes the function in which *this* is used.
+
+An example of the kind of context in which *this* might be used:
+
+```javascript
+
+var state = {     name:  "Illinois",
+                        capital: "Springfield",
+
+                        printDetails: function(){
+                        console.log("The capital of " + this.name + " is " + this.capital);
+                        }
+                   }
+
+// running state.printDetails() should print: The capital of Illinois is Springfield
+
+```
