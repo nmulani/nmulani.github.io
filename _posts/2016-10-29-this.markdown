@@ -1,6 +1,6 @@
 ---
 published: true
-title: *this*
+title: this
 layout: post
 ---
 The *this* property in Javascript is kind of quirky - whenever a function executes, it is assigned a *this* property, which is a variable which contains the value of the object that invokes the function in which *this* is used.
