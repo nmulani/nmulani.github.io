@@ -28,7 +28,7 @@ A typical lambda calculus expression may look like the following:
 
 The "λx" portion of the expression denotes the head of the abstraction, in which the "x" is the parameter accepted by this function. The "x" following the "." is the body of the function, which will be evaluated once the function is applied to an argument. The argument this function is applied to is the 1.
 
-The process for evaluating a function and applying a function to an argument is referred to as beta reduction. The argument is applying to all bound variables within the function. Evaluating a function looks like the following:
+The process for evaluating a function and applying a function to an argument is referred to as beta reduction. The argument is applied to bound variables within the function. Evaluating a function looks like the following:
 
 ```
 (λx.x)1
