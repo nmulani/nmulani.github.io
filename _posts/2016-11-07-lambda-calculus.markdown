@@ -36,4 +36,4 @@ The process for evaluating a function and applying a function to an argument is 
 1
 ```
 
-This specific simple example of a lambda calculus expression is referred to as the "identity function."
+The above simple example of a lambda calculus expression is referred to as the "identity function."
