@@ -8,7 +8,7 @@ In Haskell, "let" and "where" are both tools used to define the scope over which
 
 ```
 let y   = a*b
-     f c = c*y
+    f c = c*y
 in f d - f e
 ```
 
