@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Tuples vs Lists
 layout: post
 ---
@@ -9,10 +9,10 @@ We can use fst and snd to obtain the first or second values of a tuple:
 
 ```
 
- > fst (1,2)
-  1
- > snd (3, 4)
-  4
+   > fst (1,2)
+   1
+   > snd (3, 4)
+   4
 
 ```
 
@@ -20,9 +20,9 @@ We can also use the swap function from Data.Tuple to change the order of tuple m
 
 ```
 
- > import Data.Tuple
- > swap (“hey”, “ho”)
- (“ho”, “hey”)
+   > import Data.Tuple
+   > swap (“hey”, “ho”)
+   (“ho”, “hey”)
 
 ```
 
