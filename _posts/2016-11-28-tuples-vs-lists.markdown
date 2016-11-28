@@ -27,6 +27,7 @@ We can also use the swap function from Data.Tuple to change the order of tuple m
 ```
 
 Like tuples, lists can also store multiple values in a single value. However, they are different from tuples in a few ways:
-	1. All list members must be of the same type, but tuple members don’t need to be of the same type. (For example, a list must be [1,2,3] or [“a”, “b”,”c”] but a tuple could be (1, “a”, 2).
-	2. Lists use the [...] syntax as opposed to the tuple’s (...).
-	3. The number of items in a list can change over time. In a tuple, the [arity](https://en.wikipedia.org/wiki/Arity) is immutable. “Arity” refers to the number of arguments accepted.
+
+* All list members must be of the same type, but tuple members don’t need to be of the same type. (For example, a list must be [1,2,3] or [“a”, “b”,”c”] but a tuple could be (1, “a”, 2).
+* Lists use the [...] syntax as opposed to the tuple’s (...).
+* The number of items in a list can change over time. In a tuple, the [arity](https://en.wikipedia.org/wiki/Arity) is immutable. “Arity” refers to the number of arguments accepted.
