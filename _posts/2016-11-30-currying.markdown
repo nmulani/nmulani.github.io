@@ -1,0 +1,46 @@
+---
+published: true
+title: Currying
+layout: post
+---
+Some functions may seem like they can accept multiple arguments, but, in Haskell, all functions can only accept a single argument.
+
+When multiple arguments are supplied to a Haskell function, “currying” is the name for the process that occurs behind the scenes. Currying allows us to nest multiple functions, each of which only accepts one argument and returns one result. 
+
+It may seem like the addition function takes two arguments, as in the following example:
+
+```
+
+   > (+) 2 10
+   12
+
+```
+
+But, by taking a look at the function signature, we can see what is actually happening.
+
+```
+
+   > :t (+)
+   (+) :: Num a => a -> a -> a
+
+```
+
+The type constructor (->) is right associative, meaning we can group the types using parentheses in this manner:
+
+```
+
+   (+) :: Num a => a -> (a -> a)
+
+```
+
+So, it seems that if we input a single number into the (+) function, we should receive a function that accepts one number and outputs one number. We can see this in action in the following example:
+
+```
+
+   > let x = (+) 5
+   > x 10
+   15
+
+```
+
+Since (+) accepts a single number and returns a function that accepts another number before it provides the resulting sum, it can be partially applied. In this situation, we have stored a partial application of the addition function into x, and x has effectively become a function that adds 5 to any given number and returns the result.
