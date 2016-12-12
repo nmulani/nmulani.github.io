@@ -5,7 +5,7 @@ layout: post
 ---
 Case expressions are a formal way to write out the conditional logic we previously saw in pattern matching piece-wise functions.
 
-Let's take a piece-wise function 'findTen' similar to the one that used pattern matching to tell us if a value was equivalent to 10:
+Let's take a piece-wise function 'findTen' similar to the [one](https://nmulani.github.io/2016/12/11/pattern-matching.html) that used pattern matching to tell us if a value was equivalent to 10:
 
 ```
 
