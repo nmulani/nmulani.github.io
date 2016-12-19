@@ -3,7 +3,7 @@ published: true
 title: Functional Toolbox
 layout: post
 ---
-There are a fewreally handy features in Haskell that have proved invaluable while I've been working through the first few Euler problems. These are the fold, filter and map functions.
+There are a few really handy features in Haskell that have proved invaluable while I've been working through the first few Euler problems. These are the fold, filter and map functions.
 
 ## fold
 
