@@ -17,7 +17,7 @@ I made the initial mistake of assuming I'd be able to test passing arguments in 
 
 ```
 
-This is how the case statement within main can be structured to handle arguments passed - arguments are passed as part of a list of `String`s:
+This is how the case statement within main can be structured to handle arguments passed - arguments are passed as part of a list of `Strings':
 
 ```
 
