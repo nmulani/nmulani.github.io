@@ -4,3 +4,5 @@ title: Aventine
 tagline: Recent experiments
 description: Recent experiments
 paginate: 5
+
+theme: jekyll-theme-minimal
